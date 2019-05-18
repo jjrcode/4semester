@@ -1,0 +1,30 @@
+{
+    "name": "jjdsgn_work_environment",
+    "description": "Work Environment",
+    "author": {
+        "name": "Jakob Rasmussen",
+        "mail": "jakobjr@hotmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "autoprefixer": "^9.4.6",
+        "browser-sync": "^2.26.3",
+        "gulp": "^4.0.0",
+        "gulp-autoprefixer": "^6.0.0",
+        "gulp-cached": "^1.1.1",
+        "gulp-plumber": "^1.2.1",
+        "gulp-sass": "^4.0.2",
+        "gulp-sass-lint": "^1.4.0",
+        "gulp-sourcemaps": "^2.6.5"
+    },
+    "scripts": {
+        "postinstall": "./node_modules/.bin/gulp build"
+    },
+    "devDependencies": {
+        "webpack-stream": "^5.2.1"
+    }
+}

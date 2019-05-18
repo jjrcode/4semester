@@ -1,0 +1,32 @@
+// @include positionAbsolute(null, null, null, null);
+@mixin positionAbsolute($top: null, $right: null, $bottom: null, $left: null) {
+    position: absolute;
+    
+    @if ($top != null) {
+        top: $top;
+    }
+    @if ($right != null) {
+        right: $right;
+    }
+    @if ($bottom != null) {
+        bottom: $bottom;
+    }
+    @if ($left != null) {
+        left: $left;
+    }
+}
+
+
+// MIXIN EXAMPLE
+// @include exampleMixin;
+@mixin exampleMixin {
+    padding: 60px 15px 60px 15px;
+}
+
+// MIXIN MEDIA QUERY EXAMPLE
+// @include break-example
+@mixin break-example {
+    @media (max-width: #{$break-example}) {
+      @content;
+    }
+  }

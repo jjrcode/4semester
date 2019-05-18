@@ -1,0 +1,8 @@
+// Insert fonts to import here:
+ 
+    @font-face {
+    font-family: 'FONT-NAME';
+    font-style: normal;
+    font-weight: normal;
+    src: local('FONT-NAME'), url('fonts/FONT-NAME.woff') format('woff');
+    }

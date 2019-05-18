@@ -1,0 +1,18 @@
+// Colors
+
+$color-purple: #a100ca;
+$color-green: #0d5db8;
+$color-darkgrey: #333333;;
+$color-white: #fff;
+$color-grey: #f9f9f9;
+
+
+
+// Media queries
+
+$break-xsmall: 500px; // @media screen and (max-width: $break-xsmall) {}
+$break-small: 599px; // @media screen and (max-width: $break-small) {}
+$break-small-out: 599px; // @media screen and (min-width: $break-small-out) {}
+$break-medium: 800px; // @media screen and (max-width: $break-medium) {}
+$break-large: 1000px; // @media screen and (max-width: $break-large) {}
+$break-xlarge: 1200px; // @media screen and (max-width: $break-xlarge) {}
